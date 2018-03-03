@@ -27,6 +27,9 @@
 		4D504E3B20455D1B00A0D313 /* GFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E3A20455D1B00A0D313 /* GFNavigationController.swift */; };
 		4D504E3D2045607800A0D313 /* GFChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E3C2045607800A0D313 /* GFChannel.swift */; };
 		4D504E3F2045625200A0D313 /* GFNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E3E2045625200A0D313 /* GFNetworkTool.swift */; };
+		4D57728E204A8F8C00274586 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D57728D204A8F8C00274586 /* Product.swift */; };
+		4D577293204A92F800274586 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D577291204A92F800274586 /* ProductCollectionViewCell.swift */; };
+		4D577294204A92F800274586 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D577292204A92F800274586 /* ProductCollectionViewCell.xib */; };
 		4D8F157F2048067F00B45D55 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F157E2048067F00B45D55 /* UIView+Extension.swift */; };
 		4DB286C220463EF4005491A9 /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB286C120463EF4005491A9 /* HomeItem.swift */; };
 		4DF5CC03204784AB002EE42D /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5CC01204784AB002EE42D /* HomeTableViewCell.swift */; };
@@ -77,6 +80,9 @@
 		4D504E3A20455D1B00A0D313 /* GFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFNavigationController.swift; sourceTree = "<group>"; };
 		4D504E3C2045607800A0D313 /* GFChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFChannel.swift; sourceTree = "<group>"; };
 		4D504E3E2045625200A0D313 /* GFNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFNetworkTool.swift; sourceTree = "<group>"; };
+		4D57728D204A8F8C00274586 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4D577291204A92F800274586 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D577292204A92F800274586 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
 		4D8F157E2048067F00B45D55 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		4DB286C120463EF4005491A9 /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
 		4DF5CC01204784AB002EE42D /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
@@ -352,6 +358,7 @@
 		4D504E1A204541B600A0D313 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4D57728D204A8F8C00274586 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -359,6 +366,8 @@
 		4D504E1B204541B600A0D313 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4D577291204A92F800274586 /* ProductCollectionViewCell.swift */,
+				4D577292204A92F800274586 /* ProductCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -541,6 +550,7 @@
 			files = (
 				4D504DDC20453FB200A0D313 /* LaunchScreen.storyboard in Resources */,
 				4D504DD920453FB200A0D313 /* Assets.xcassets in Resources */,
+				4D577294204A92F800274586 /* ProductCollectionViewCell.xib in Resources */,
 				4DF5CC04204784AB002EE42D /* HomeTableViewCell.xib in Resources */,
 				4D504DD720453FB200A0D313 /* Main.storyboard in Resources */,
 			);
@@ -626,12 +636,14 @@
 				4DF5CC03204784AB002EE42D /* HomeTableViewCell.swift in Sources */,
 				4D504E232045472500A0D313 /* GFBaseViewController.swift in Sources */,
 				4D504DD420453FB200A0D313 /* ViewController.swift in Sources */,
+				4D57728E204A8F8C00274586 /* Product.swift in Sources */,
 				4D504E3F2045625200A0D313 /* GFNetworkTool.swift in Sources */,
 				4D504E212045428200A0D313 /* GFConst.swift in Sources */,
 				4D504E3D2045607800A0D313 /* GFChannel.swift in Sources */,
 				4D504E2D20454C0E00A0D313 /* ProductViewController.swift in Sources */,
 				4DB286C220463EF4005491A9 /* HomeItem.swift in Sources */,
 				4D504DD220453FB200A0D313 /* AppDelegate.swift in Sources */,
+				4D577293204A92F800274586 /* ProductCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
