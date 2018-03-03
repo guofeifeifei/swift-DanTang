@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210CB257C57789653E2FB0C2 /* Pods_DanTang_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E174275D2F0DE142E9683 /* Pods_DanTang_swift.framework */; };
+		4D0F90952046838700326FD5 /* TopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F90942046838700326FD5 /* TopTableViewController.swift */; };
+		4D2A366820494C9F00103A47 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A366720494C9F00103A47 /* DetailViewController.swift */; };
 		4D504DD220453FB200A0D313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504DD120453FB200A0D313 /* AppDelegate.swift */; };
 		4D504DD420453FB200A0D313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504DD320453FB200A0D313 /* ViewController.swift */; };
 		4D504DD720453FB200A0D313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D504DD520453FB200A0D313 /* Main.storyboard */; };
@@ -14,6 +17,20 @@
 		4D504DDC20453FB200A0D313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D504DDA20453FB200A0D313 /* LaunchScreen.storyboard */; };
 		4D504DE720453FB200A0D313 /* DanTang_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504DE620453FB200A0D313 /* DanTang_swiftTests.swift */; };
 		4D504DF220453FB200A0D313 /* DanTang_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504DF120453FB200A0D313 /* DanTang_swiftUITests.swift */; };
+		4D504E212045428200A0D313 /* GFConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E202045428200A0D313 /* GFConst.swift */; };
+		4D504E232045472500A0D313 /* GFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E222045472500A0D313 /* GFBaseViewController.swift */; };
+		4D504E272045475200A0D313 /* GFTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E262045475200A0D313 /* GFTabBarViewController.swift */; };
+		4D504E2B20454BFD00A0D313 /* DanTangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E2A20454BFD00A0D313 /* DanTangViewController.swift */; };
+		4D504E2D20454C0E00A0D313 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E2C20454C0E00A0D313 /* ProductViewController.swift */; };
+		4D504E2F20454C1900A0D313 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E2E20454C1900A0D313 /* MeViewController.swift */; };
+		4D504E3720454C9B00A0D313 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E3620454C9B00A0D313 /* ClassViewController.swift */; };
+		4D504E3B20455D1B00A0D313 /* GFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E3A20455D1B00A0D313 /* GFNavigationController.swift */; };
+		4D504E3D2045607800A0D313 /* GFChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E3C2045607800A0D313 /* GFChannel.swift */; };
+		4D504E3F2045625200A0D313 /* GFNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504E3E2045625200A0D313 /* GFNetworkTool.swift */; };
+		4D8F157F2048067F00B45D55 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F157E2048067F00B45D55 /* UIView+Extension.swift */; };
+		4DB286C220463EF4005491A9 /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB286C120463EF4005491A9 /* HomeItem.swift */; };
+		4DF5CC03204784AB002EE42D /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5CC01204784AB002EE42D /* HomeTableViewCell.swift */; };
+		4DF5CC04204784AB002EE42D /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF5CC02204784AB002EE42D /* HomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		446E174275D2F0DE142E9683 /* Pods_DanTang_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanTang_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0F90942046838700326FD5 /* TopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewController.swift; sourceTree = "<group>"; };
+		4D2A366720494C9F00103A47 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4D504DCE20453FB200A0D313 /* DanTang-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DanTang-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D504DD120453FB200A0D313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D504DD320453FB200A0D313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,22 @@
 		4D504DED20453FB200A0D313 /* DanTang-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DanTang-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D504DF120453FB200A0D313 /* DanTang_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanTang_swiftUITests.swift; sourceTree = "<group>"; };
 		4D504DF320453FB200A0D313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D504E202045428200A0D313 /* GFConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFConst.swift; sourceTree = "<group>"; };
+		4D504E222045472500A0D313 /* GFBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBaseViewController.swift; sourceTree = "<group>"; };
+		4D504E262045475200A0D313 /* GFTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarViewController.swift; sourceTree = "<group>"; };
+		4D504E2A20454BFD00A0D313 /* DanTangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanTangViewController.swift; sourceTree = "<group>"; };
+		4D504E2C20454C0E00A0D313 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		4D504E2E20454C1900A0D313 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		4D504E3620454C9B00A0D313 /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		4D504E3A20455D1B00A0D313 /* GFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFNavigationController.swift; sourceTree = "<group>"; };
+		4D504E3C2045607800A0D313 /* GFChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFChannel.swift; sourceTree = "<group>"; };
+		4D504E3E2045625200A0D313 /* GFNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFNetworkTool.swift; sourceTree = "<group>"; };
+		4D8F157E2048067F00B45D55 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		4DB286C120463EF4005491A9 /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
+		4DF5CC01204784AB002EE42D /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		4DF5CC02204784AB002EE42D /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		78BAF6EFB819414FE08E3663 /* Pods-DanTang-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTang-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanTang-swift/Pods-DanTang-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		DD0A7EF5679269D127DD8CD9 /* Pods-DanTang-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTang-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanTang-swift/Pods-DanTang-swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210CB257C57789653E2FB0C2 /* Pods_DanTang_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +118,8 @@
 				4D504DE520453FB200A0D313 /* DanTang-swiftTests */,
 				4D504DF020453FB200A0D313 /* DanTang-swiftUITests */,
 				4D504DCF20453FB200A0D313 /* Products */,
+				6CE799A0CC4024D3A2AA6488 /* Pods */,
+				B87C5158CE2695F8F0C59043 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +138,7 @@
 			children = (
 				4D504DD120453FB200A0D313 /* AppDelegate.swift */,
 				4D504DD320453FB200A0D313 /* ViewController.swift */,
+				4D504DFF204541B600A0D313 /* Classes */,
 				4D504DD520453FB200A0D313 /* Main.storyboard */,
 				4D504DD820453FB200A0D313 /* Assets.xcassets */,
 				4D504DDA20453FB200A0D313 /* LaunchScreen.storyboard */,
@@ -125,6 +165,270 @@
 			path = "DanTang-swiftUITests";
 			sourceTree = "<group>";
 		};
+		4D504DFF204541B600A0D313 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E3220454C8300A0D313 /* Classification */,
+				4D504E04204541B600A0D313 /* DanTang */,
+				4D504E08204541B600A0D313 /* Login&Register */,
+				4D504E0C204541B600A0D313 /* Main */,
+				4D504E10204541B600A0D313 /* Me */,
+				4D504E14204541B600A0D313 /* Other */,
+				4D504E18204541B600A0D313 /* Product */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4D504E04204541B600A0D313 /* DanTang */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E05204541B600A0D313 /* Controller */,
+				4D504E06204541B600A0D313 /* Model */,
+				4D504E07204541B600A0D313 /* View */,
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+		4D504E05204541B600A0D313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E2A20454BFD00A0D313 /* DanTangViewController.swift */,
+				4D0F90942046838700326FD5 /* TopTableViewController.swift */,
+				4D2A366720494C9F00103A47 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D504E06204541B600A0D313 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E3C2045607800A0D313 /* GFChannel.swift */,
+				4DB286C120463EF4005491A9 /* HomeItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D504E07204541B600A0D313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DF5CC01204784AB002EE42D /* HomeTableViewCell.swift */,
+				4DF5CC02204784AB002EE42D /* HomeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D504E08204541B600A0D313 /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E09204541B600A0D313 /* Controller */,
+				4D504E0A204541B600A0D313 /* Model */,
+				4D504E0B204541B600A0D313 /* View */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		4D504E09204541B600A0D313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D504E0A204541B600A0D313 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D504E0B204541B600A0D313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D504E0C204541B600A0D313 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E1C2045422400A0D313 /* Category */,
+				4D504E1D2045422400A0D313 /* Tools */,
+				4D504E0D204541B600A0D313 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4D504E0D204541B600A0D313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E3A20455D1B00A0D313 /* GFNavigationController.swift */,
+				4D504E222045472500A0D313 /* GFBaseViewController.swift */,
+				4D504E262045475200A0D313 /* GFTabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D504E10204541B600A0D313 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E11204541B600A0D313 /* Controller */,
+				4D504E12204541B600A0D313 /* Model */,
+				4D504E13204541B600A0D313 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		4D504E11204541B600A0D313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E2E20454C1900A0D313 /* MeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D504E12204541B600A0D313 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D504E13204541B600A0D313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D504E14204541B600A0D313 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E15204541B600A0D313 /* Controller */,
+				4D504E16204541B600A0D313 /* Model */,
+				4D504E17204541B600A0D313 /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4D504E15204541B600A0D313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D504E16204541B600A0D313 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D504E17204541B600A0D313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D504E18204541B600A0D313 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E19204541B600A0D313 /* Controller */,
+				4D504E1A204541B600A0D313 /* Model */,
+				4D504E1B204541B600A0D313 /* View */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		4D504E19204541B600A0D313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E2C20454C0E00A0D313 /* ProductViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D504E1A204541B600A0D313 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D504E1B204541B600A0D313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D504E1C2045422400A0D313 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F157E2048067F00B45D55 /* UIView+Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4D504E1D2045422400A0D313 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E202045428200A0D313 /* GFConst.swift */,
+				4D504E3E2045625200A0D313 /* GFNetworkTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4D504E3220454C8300A0D313 /* Classification */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E3320454C8300A0D313 /* Controller */,
+				4D504E3420454C8300A0D313 /* Model */,
+				4D504E3520454C8300A0D313 /* View */,
+			);
+			path = Classification;
+			sourceTree = "<group>";
+		};
+		4D504E3320454C8300A0D313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D504E3620454C9B00A0D313 /* ClassViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D504E3420454C8300A0D313 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D504E3520454C8300A0D313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CE799A0CC4024D3A2AA6488 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78BAF6EFB819414FE08E3663 /* Pods-DanTang-swift.debug.xcconfig */,
+				DD0A7EF5679269D127DD8CD9 /* Pods-DanTang-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B87C5158CE2695F8F0C59043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				446E174275D2F0DE142E9683 /* Pods_DanTang_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +436,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D504DF620453FB200A0D313 /* Build configuration list for PBXNativeTarget "DanTang-swift" */;
 			buildPhases = (
+				CE46376355809B023496BBFF /* [CP] Check Pods Manifest.lock */,
 				4D504DCA20453FB200A0D313 /* Sources */,
 				4D504DCB20453FB200A0D313 /* Frameworks */,
 				4D504DCC20453FB200A0D313 /* Resources */,
+				799A80BD3CB676095A525927 /* [CP] Embed Pods Frameworks */,
+				4CCC773E4F72F59EFD365EC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +541,7 @@
 			files = (
 				4D504DDC20453FB200A0D313 /* LaunchScreen.storyboard in Resources */,
 				4D504DD920453FB200A0D313 /* Assets.xcassets in Resources */,
+				4DF5CC04204784AB002EE42D /* HomeTableViewCell.xib in Resources */,
 				4D504DD720453FB200A0D313 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,12 +562,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CCC773E4F72F59EFD365EC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTang-swift/Pods-DanTang-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		799A80BD3CB676095A525927 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTang-swift/Pods-DanTang-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE46376355809B023496BBFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D504DCA20453FB200A0D313 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D504E2F20454C1900A0D313 /* MeViewController.swift in Sources */,
+				4D2A366820494C9F00103A47 /* DetailViewController.swift in Sources */,
+				4D504E3720454C9B00A0D313 /* ClassViewController.swift in Sources */,
+				4D8F157F2048067F00B45D55 /* UIView+Extension.swift in Sources */,
+				4D504E272045475200A0D313 /* GFTabBarViewController.swift in Sources */,
+				4D504E2B20454BFD00A0D313 /* DanTangViewController.swift in Sources */,
+				4D504E3B20455D1B00A0D313 /* GFNavigationController.swift in Sources */,
+				4D0F90952046838700326FD5 /* TopTableViewController.swift in Sources */,
+				4DF5CC03204784AB002EE42D /* HomeTableViewCell.swift in Sources */,
+				4D504E232045472500A0D313 /* GFBaseViewController.swift in Sources */,
 				4D504DD420453FB200A0D313 /* ViewController.swift in Sources */,
+				4D504E3F2045625200A0D313 /* GFNetworkTool.swift in Sources */,
+				4D504E212045428200A0D313 /* GFConst.swift in Sources */,
+				4D504E3D2045607800A0D313 /* GFChannel.swift in Sources */,
+				4D504E2D20454C0E00A0D313 /* ProductViewController.swift in Sources */,
+				4DB286C220463EF4005491A9 /* HomeItem.swift in Sources */,
 				4D504DD220453FB200A0D313 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,10 +795,14 @@
 		};
 		4D504DF720453FB200A0D313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78BAF6EFB819414FE08E3663 /* Pods-DanTang-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N495UC66AV;
 				INFOPLIST_FILE = "DanTang-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gfg.DanTang-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,10 +813,14 @@
 		};
 		4D504DF820453FB200A0D313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0A7EF5679269D127DD8CD9 /* Pods-DanTang-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N495UC66AV;
 				INFOPLIST_FILE = "DanTang-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gfg.DanTang-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";

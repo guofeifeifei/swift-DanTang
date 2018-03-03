@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  DanTang-swift
 //
-//  Created by ZZCN77 on 2018/2/27.
-//  Copyright © 2018年 ZZCN77. All rights reserved.
+//  Created by FeiYu on 2018/2/27.
+//  Copyright © 2018年 FeiYu. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+      window = UIWindow.init(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        window?.rootViewController = GFTabBarViewController()
+    
         return true
     }
 
