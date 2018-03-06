@@ -3,6 +3,8 @@ PODS:
   - ESPullToRefresh (2.7)
   - FDFullscreenPopGesture (1.1)
   - Kingfisher (4.6.1)
+  - LLCycleScrollView (1.4.4):
+    - Kingfisher
   - SnapKit (4.0.0)
   - SVProgressHUD (2.2.2)
   - SwiftyJSON (4.0.0)
@@ -12,6 +14,7 @@ DEPENDENCIES:
   - ESPullToRefresh
   - FDFullscreenPopGesture
   - Kingfisher
+  - LLCycleScrollView
   - SnapKit
   - SVProgressHUD
   - SwiftyJSON
@@ -21,10 +24,11 @@ SPEC CHECKSUMS:
   ESPullToRefresh: 119e2710b82b75536aab2bbe4883ba119fca35c8
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  LLCycleScrollView: 7dcfb96bae6947b5de446a868e80ff0db2f047ae
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 556977cdba0e43e4febed66c5cb7231ad4cb99fa
+PODFILE CHECKSUM: 386d8ba6823b4ce478faaa8bd920e351c4c74824
 
 COCOAPODS: 1.2.1

@@ -20,7 +20,7 @@ class DanTangViewController: GFBaseViewController, UIScrollViewDelegate{
     
     //当前选中的按钮
     weak var selectedButton = UIButton.init()
-    
+     var offset = Int()
     
     
     

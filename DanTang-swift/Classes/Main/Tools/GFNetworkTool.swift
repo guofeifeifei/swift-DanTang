@@ -86,13 +86,13 @@ class GFNetworkTool: NSObject {
     
     
     
-    func loadProductData(finished:@escaping(_ products : [Product])->()) {
+    func loadProductData(id : Int, offset : Int, finished:@escaping(_ products : [Product])->()) {
         SVProgressHUD.show(withStatus: "正在加载")
         let url = BASE_URL + "v2/items"
         let params = ["gender": 1,
                      "generation": 1,
                      "limit": 20,
-                     "offset": 0]
+                     "offset": offset]
         
         Alamofire.request(url, method: .get, parameters: params, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
 

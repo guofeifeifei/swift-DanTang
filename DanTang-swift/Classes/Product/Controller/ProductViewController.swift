@@ -12,26 +12,56 @@ class ProductViewController: GFBaseViewController, UICollectionViewDelegate, UIC
    
     var products = [Product]()
     weak var collectionView : UICollectionView?
-
+      var offset = Int()
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        offset = 0;
+
         setupCollectionView()
         weak var weakSelf = self
-        GFNetworkTool.shareNetworkTool.loadProductData { (product) in
+
+        GFNetworkTool.shareNetworkTool.loadProductData(id: 1, offset : offset) { (product) in
             weakSelf!.products = product
             weakSelf!.collectionView!.reloadData()
+            weakSelf!.collectionView!.es.stopPullToRefresh(ignoreDate: true)
+        }
+        //下拉刷新
+//        collectionView?.es.addPullToRefresh {
+//            weakSelf!.offset = 0;
+//            weakSelf!.loadHomeData()
+//        }
+        collectionView?.es.addInfiniteScrolling {
+            weakSelf!.offset += 20;
+            weakSelf!.loadHomeDataNext()
+        }
+        
+        
+    }
+    func loadHomeData(){
+        weak var weakSelf = self
+        GFNetworkTool.shareNetworkTool.loadProductData(id: 1, offset : offset) { (product) in
+            weakSelf!.products = product
+            weakSelf!.collectionView!.reloadData()
+            weakSelf!.collectionView!.es.stopPullToRefresh(ignoreDate: true)
         }
     }
-    
+    func loadHomeDataNext(){
+        weak var weakSelf = self
+        GFNetworkTool.shareNetworkTool.loadProductData(id: 1, offset : offset) { (product) in
+            weakSelf!.products = product + weakSelf!.products
+            weakSelf!.collectionView!.reloadData()
+            weakSelf!.collectionView!.es.stopLoadingMore()
+        }
+    }
     //设置collectionView
     private func setupCollectionView(){
         let collectionView = UICollectionView.init(frame: view.bounds, collectionViewLayout: UICollectionViewFlowLayout())
         collectionView.delegate = self
         collectionView.backgroundColor = view.backgroundColor
         collectionView.dataSource = self
+        
         let nib = UINib.init(nibName: String.init(describing: ProductCollectionViewCell.self), bundle: nil)
         
         collectionView.register(nib, forCellWithReuseIdentifier: collectionCellID)
@@ -54,7 +84,13 @@ class ProductViewController: GFBaseViewController, UICollectionViewDelegate, UIC
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize.init(width: (KMainWidth - 20) / 2, height: 245)
     }
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+       let detailVC = ProductDetailViewController()
+        detailVC.title = "商品详情"
+        detailVC.product = products[indexPath.item]
+        navigationController?.pushViewController(detailVC, animated: true)
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

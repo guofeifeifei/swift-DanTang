@@ -8,4 +8,5 @@ pod 'Alamofire'
 pod 'SwiftyJSON'
 pod 'FDFullscreenPopGesture'
 pod "ESPullToRefresh"
+pod 'LLCycleScrollView' 
 end
