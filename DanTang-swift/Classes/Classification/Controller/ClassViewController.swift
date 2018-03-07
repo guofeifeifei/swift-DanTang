@@ -14,8 +14,15 @@ class ClassViewController: GFBaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        navigationItem.rightBarButtonItem = UIBarButtonItem.init(image: #imageLiteral(resourceName: "Feed_SearchBtn_18x18_"), style: .plain, target: self, action: nil)
+        setupScrollView()
+        
     }
 
+    private func setupScrollView(){
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

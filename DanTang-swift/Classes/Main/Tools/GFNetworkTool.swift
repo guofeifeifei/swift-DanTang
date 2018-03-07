@@ -131,15 +131,116 @@ class GFNetworkTool: NSObject {
     
     
     
+    func loadProductDetailData(id : Int, finished : @escaping (_ productDetail : ProductDetail) -> ()) {
+        SVProgressHUD.show(withStatus: "正在加载...")
+        let url = BASE_URL + "v2/items/\(id)"
+        Alamofire.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
+            guard response.result.isSuccess else{
+                SVProgressHUD.showError(withStatus: "加载失败")
+                return
+            }
+            if let value = response.result.value{
+                let dict = JSON.init(value)
+                let code = dict["code"].intValue
+                let message = dict["message"].stringValue
+                guard code == RETURN_OK else{
+                    SVProgressHUD.showInfo(withStatus: message)
+                    return
+                }
+                SVProgressHUD.dismiss()
+                if let data = dict["data"].dictionaryObject{
+                    let productDetail = ProductDetail.init(dict: data as [String : AnyObject])
+                    finished(productDetail)
+                }
+                
+            }
+        }
+        
+    }
     
     
     
-    
-    
-    
-    
-    
-    
+    //商品详情 评论
+    func loadProductDetailComments(id : Int, finished:@escaping(_ comments : [Comment]) -> ()){
+        SVProgressHUD.show(withStatus: "正在加载...")
+        let url = BASE_URL + "v2/items/\(id)/comments"
+        let params = ["limit": 20,
+                      "offset": 0]
+        
+        Alamofire.request(url, method: .get, parameters: params, encoding:  URLEncoding.default, headers: nil).responseJSON { (response) in
+            guard response.result.isSuccess else{
+                SVProgressHUD.showError(withStatus: "加载失败")
+                return
+            }
+            
+            if let value = response.result.value{
+                let dict = JSON.init(value)
+                let code = dict["code"].intValue
+                let messgae = dict["message"].stringValue
+                guard code == RETURN_OK else{
+                    SVProgressHUD.showInfo(withStatus: messgae)
+                    return
+                }
+                SVProgressHUD.dismiss()
+                if let data = dict["data"].dictionary{
+                    if let commentsData = data["comments"]?.arrayObject{
+                        var comments = [Comment]()
+                        for item in commentsData{
+                            let comment = Comment.init(dict: item as! [String : AnyObject])
+                            comments.append(comment)
+                        }
+                        finished(comments)
+                    }
+                }
+            }
+            
+        }
+        
+    }
+    /*
+    //分类界面、顶部、专题合集
+    func loadCateoryCollection(limit : Int, finished:@escaping(_ collections : [Collection]) -> ()){
+        SVProgressHUD.show(withStatus: "正在加载...")
+        let url = BASE_URL + "v1/collections"
+        let params = ["limit": limit,
+                      "offset": 0]
+        
+        Alamofire.request(url, method: .get, parameters: params, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
+            guard response.result.isSuccess else{
+                SVProgressHUD.showError(withStatus: "加载失败...")
+                return
+                
+            }
+            if let value = response.result.value{
+                let dict = JSON.init(value)
+                let code = dict["code"].intValue
+                let message = dict["message"].stringValue
+                guard code == RETURN_OK else{
+                    SVProgressHUD.showInfo(withStatus: message)
+                    return
+                }
+                SVProgressHUD.dismiss()
+                if let data = dict["data"].dictionary{
+                    if let collectionData = data["collections"]?.arrayObject{
+//                        var collections = [Collection]()
+//                        for item in collectionData{
+//                            let item in collectionData{
+//                                let collection = Collection.da
+//                            }
+//                        }
+                    }
+                }
+                
+                
+            }
+            
+            
+        }
+        
+        
+        
+    }
+    */
     
     
 }

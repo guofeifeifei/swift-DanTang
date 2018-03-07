@@ -10,6 +10,8 @@
 		210CB257C57789653E2FB0C2 /* Pods_DanTang_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E174275D2F0DE142E9683 /* Pods_DanTang_swift.framework */; };
 		4D0F90952046838700326FD5 /* TopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F90942046838700326FD5 /* TopTableViewController.swift */; };
 		4D2A366820494C9F00103A47 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A366720494C9F00103A47 /* DetailViewController.swift */; };
+		4D3FB101204F6C060053E72D /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3FB100204F6C060053E72D /* Comment.swift */; };
+		4D3FB103204F73510053E72D /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3FB102204F73510053E72D /* ProductDetail.swift */; };
 		4D4D6A5B204E5A1000FA5DFE /* ProduceDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D6A5A204E5A1000FA5DFE /* ProduceDetailBottomView.swift */; };
 		4D4D6A5D204E5AF700FA5DFE /* DetailScrollViewTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D6A5C204E5AF700FA5DFE /* DetailScrollViewTopView.swift */; };
 		4D504DD220453FB200A0D313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D504DD120453FB200A0D313 /* AppDelegate.swift */; };
@@ -34,6 +36,7 @@
 		4D577293204A92F800274586 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D577291204A92F800274586 /* ProductCollectionViewCell.swift */; };
 		4D577294204A92F800274586 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D577292204A92F800274586 /* ProductCollectionViewCell.xib */; };
 		4D8F157F2048067F00B45D55 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F157E2048067F00B45D55 /* UIView+Extension.swift */; };
+		4D95FEDB204FB3AE00C12353 /* DetailChoiceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D95FEDA204FB3AE00C12353 /* DetailChoiceButtonView.swift */; };
 		4DB286C220463EF4005491A9 /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB286C120463EF4005491A9 /* HomeItem.swift */; };
 		4DB52E40204D3E5000A44CDF /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB52E3F204D3E5000A44CDF /* SearchResult.swift */; };
 		4DB52E42204D452800A44CDF /* DetailScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB52E41204D452800A44CDF /* DetailScrollView.swift */; };
@@ -62,6 +65,8 @@
 		446E174275D2F0DE142E9683 /* Pods_DanTang_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanTang_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0F90942046838700326FD5 /* TopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewController.swift; sourceTree = "<group>"; };
 		4D2A366720494C9F00103A47 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4D3FB100204F6C060053E72D /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		4D3FB102204F73510053E72D /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
 		4D4D6A5A204E5A1000FA5DFE /* ProduceDetailBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProduceDetailBottomView.swift; sourceTree = "<group>"; };
 		4D4D6A5C204E5AF700FA5DFE /* DetailScrollViewTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScrollViewTopView.swift; sourceTree = "<group>"; };
 		4D504DCE20453FB200A0D313 /* DanTang-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DanTang-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +97,7 @@
 		4D577291204A92F800274586 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		4D577292204A92F800274586 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
 		4D8F157E2048067F00B45D55 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		4D95FEDA204FB3AE00C12353 /* DetailChoiceButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailChoiceButtonView.swift; sourceTree = "<group>"; };
 		4DB286C120463EF4005491A9 /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
 		4DB52E3F204D3E5000A44CDF /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		4DB52E41204D452800A44CDF /* DetailScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScrollView.swift; sourceTree = "<group>"; };
@@ -220,6 +226,7 @@
 			children = (
 				4D504E3C2045607800A0D313 /* GFChannel.swift */,
 				4DB286C120463EF4005491A9 /* HomeItem.swift */,
+				4D3FB100204F6C060053E72D /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -371,6 +378,7 @@
 			children = (
 				4D57728D204A8F8C00274586 /* Product.swift */,
 				4DB52E3F204D3E5000A44CDF /* SearchResult.swift */,
+				4D3FB102204F73510053E72D /* ProductDetail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -383,6 +391,7 @@
 				4DB52E41204D452800A44CDF /* DetailScrollView.swift */,
 				4D4D6A5C204E5AF700FA5DFE /* DetailScrollViewTopView.swift */,
 				4D4D6A5A204E5A1000FA5DFE /* ProduceDetailBottomView.swift */,
+				4D95FEDA204FB3AE00C12353 /* DetailChoiceButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -650,8 +659,10 @@
 				4D504E2B20454BFD00A0D313 /* DanTangViewController.swift in Sources */,
 				4D504E3B20455D1B00A0D313 /* GFNavigationController.swift in Sources */,
 				4D0F90952046838700326FD5 /* TopTableViewController.swift in Sources */,
+				4D3FB101204F6C060053E72D /* Comment.swift in Sources */,
 				4DF5CC03204784AB002EE42D /* HomeTableViewCell.swift in Sources */,
 				4D504E232045472500A0D313 /* GFBaseViewController.swift in Sources */,
+				4D95FEDB204FB3AE00C12353 /* DetailChoiceButtonView.swift in Sources */,
 				4D504DD420453FB200A0D313 /* ViewController.swift in Sources */,
 				4D57728E204A8F8C00274586 /* Product.swift in Sources */,
 				4D504E3F2045625200A0D313 /* GFNetworkTool.swift in Sources */,
@@ -659,6 +670,7 @@
 				4D504E3D2045607800A0D313 /* GFChannel.swift in Sources */,
 				4D504E2D20454C0E00A0D313 /* ProductViewController.swift in Sources */,
 				4DB286C220463EF4005491A9 /* HomeItem.swift in Sources */,
+				4D3FB103204F73510053E72D /* ProductDetail.swift in Sources */,
 				4D4D6A5D204E5AF700FA5DFE /* DetailScrollViewTopView.swift in Sources */,
 				4D570051204D0C3800808E45 /* ProductDetailViewController.swift in Sources */,
 				4D504DD220453FB200A0D313 /* AppDelegate.swift in Sources */,
